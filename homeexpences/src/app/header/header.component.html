@@ -1,0 +1,32 @@
+<!-- Header Section -->
+<header class="header-section">
+    <a href="index.html" class="site-logo">
+        <img src="../assets/img/money-house.png" alt=""  height="70">
+        <h2 >Home Expenses </h2>
+    </a>
+    <nav class="header-nav">
+        <ul class="main-menu">
+            
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <!-- li><a href="#">Pages</a>
+                <ul class="sub-menu">
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="loans.html">Loans</a></li>
+                    <li><a href="elements.html">elements</a></li>
+                </ul>
+            </li>
+            <li><a href="news.html">News</a></li-->
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="header-right">
+            <form (ngSubmit)="connexion()" >
+            <div class="hr-btn row"> <div class="col-5">
+                 <input type="text" class="form-control"  placeholder="Your E-mail" required [(ngModel)]="email" name="email">
+                 </div><div class="col-4">   <input type="password" placeholder="Password" required class="form-control"  [(ngModel)]="password" name="password"> 
+          </div><div class="col-3">    <button type="submit" class="btn btn-outline-success">Connection</button> </div> </div>
+        </form>
+        </div>
+    </nav>
+</header>
+<!-- Header Section end -->
